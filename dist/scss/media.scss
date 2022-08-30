@@ -1,0 +1,101 @@
+@media(max-width: 1100px) {
+    .card__body {
+        font-size: 14px;
+    }
+    .card__title {
+        font-size: 26px;
+    }
+}
+@media(max-width: 992px) {
+    .card__body {
+        flex: 0 0 30%;
+    }
+    .card__image {
+        height: 280px;
+        width: 225px;
+    }
+    .movie__cards {
+        gap: 20px;
+    }
+    .card__body {
+        flex: 0 0 30%;
+        
+    }
+    .card__image {
+        height: 280px;
+        width: 225px;
+    }
+    .movie__selects {
+        gap: 30px;
+    }
+    .movie__selects select {
+        font-size: 16px;
+    }
+}
+@media(max-width: 850px) {
+    .card__body {
+        flex: 0 0 20%;
+    }
+    .card__image {
+        height: 260px;
+        width: 205px;
+    }
+    .movie__selects select {
+        font-size: 14px;
+    }
+    .movie__selects select option {
+        padding: 3px;
+    }
+    .movie__title h1 {
+        font-size: 58px;
+    }
+}
+@media(max-width: 768px) {
+    .movie__title {
+        margin: 0 0 20px auto;
+    }
+    .card__body {
+        flex: 0 0 20%;
+    }
+    .card__image {
+        height: 220px;
+        width: 175px;
+    }
+}
+@media(max-width: 670px) {
+    .movie__title h1 {
+        font-size: 48px;
+    }
+    .movie__cards {
+        justify-content: center;
+    }
+    .card__body {
+        flex: 0 0 40%;
+    }
+}
+@media(max-width: 570px) {
+    .movie__selects  {
+        flex-wrap: wrap;
+    }
+    .movie__selects select {
+        font-size: 12px;
+    }
+    .movie__selects-actor {
+        transform: translateY(100%);
+    }
+}
+@media(max-width: 450px) {
+    .movie__title {
+        font-size: 30px;
+    }
+    .card__body {
+        flex: 0 0 90%;
+    }
+    .card__image {
+        height: 250px;
+        width: 250px;
+    }
+    .card__title {
+        height: 55px;
+    }
+}
