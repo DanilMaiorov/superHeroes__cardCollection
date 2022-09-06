@@ -1,5 +1,4 @@
 import arrayUnique from "./helpers.js";
-import changer from "./changer.js";
 
 const renderCards = () => {
   return class MovieCard {
@@ -24,7 +23,7 @@ const renderCards = () => {
       cardBody.classList.add('card__body');
       cardBody.innerHTML = `
           <div class="card__image">
-            <img src="./db/${this.photo}" alt="${this.name}">
+            <img src="./dist/db/${this.photo}" alt="${this.name}">
           </div>
           <div class="card__title">${this.name}</div>
           <div class="card__actors">Actor name: <br><span>${this.actors}</span></div>
@@ -75,7 +74,6 @@ const renderCards = () => {
         <div value=${index}>${film}</div>`;
         filmList.append(filmOption);
       });
-      changer(filmList);
     }
     renderGenderList(arr) {
       const genderList = document.querySelector('.movie__selects-gender');

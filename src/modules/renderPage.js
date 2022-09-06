@@ -5,7 +5,7 @@ export const renderPage = () => {
   const newCard = renderCards();
   let mainArr = Object.create(newCard);
   let counter = 0;
-  getData('./db/dbHeroes.json')
+  getData('./dist/db/dbHeroes.json')
     .then(data => {
       let mainArray = [];
       data.forEach(({ name, realName, species, citizenship, gender, birthDay, deathDay, status, actors, photo, movies, }) => {
